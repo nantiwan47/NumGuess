@@ -30,4 +30,38 @@
 
 ### หน้าตาเกม (ตัวอย่าง)
 
+<table align="center">
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/d9e765fa-4ccd-4a7f-b3c7-29f77044a704" width="120"/></td>
+    <td><img src="https://github.com/user-attachments/assets/796df500-63a9-4dbd-b725-4f9e5adccf61" width="120"/></td>
+    <td><img src="https://github.com/user-attachments/assets/3e34f523-9f43-4fc5-978e-f792d6677094" width="120"/></td>
+  </tr>
+</table>
 
+### การติดตั้งและรันโปรเจกต์
+
+#### 1. Clone โปรเจกต์
+```bash
+git clone https://github.com/nantiwan47/NumGuess.git
+cd NumGuess
+````
+
+#### 2. ติดตั้ง Dependencies
+
+```bash
+flutter pub get
+```
+
+#### 3. รันแอป
+
+* **บน Chrome (Web)**
+
+```bash
+flutter run -d chrome
+```
+
+* **บน Emulator หรือ Device**
+
+```bash
+flutter run
+```
